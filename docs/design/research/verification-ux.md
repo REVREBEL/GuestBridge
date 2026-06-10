@@ -34,7 +34,7 @@ graph TD
 
 ## 3. Detailed Step-by-Step Flow Specification
 
-### Step 1: Reservation Look-up
+### Step 1: Reservation Lookup
 * **Objective**: Confirm the user has a valid reservation and match their session to the Property Management System (PMS) record.
 * **Layout**: Clear, premium hero typography welcoming them to the hotel (using the serif editorial typography scale). A single container containing the booking reference and last name inputs.
 * **Inputs**:
