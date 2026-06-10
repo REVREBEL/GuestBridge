@@ -80,7 +80,7 @@ To optimize operator efficiency during high-volume peak-hour check-ins, all prim
 | **Edit AI Draft** | `Option + E` | Copies suggestion text to input textarea and shifts focus. |
 | **Skip AI Suggestion** | `Option + S` | Collapses the AI Panel and shifts focus to custom textarea. |
 | **Toggle Thread Lock/Archive** | `Option + L` | Locks the session thread, saving to historic logs. |
-| **Navigate to Next Thread** | `Option + DownArrow` | Triggers focus switch on sidebar queue lists. |
+| **Navigate to Next Thread** | `Ctrl + Option + DownArrow` | Triggers focus switch on sidebar queue lists (avoids conflict with native textarea navigation). |
 
 ---
 
