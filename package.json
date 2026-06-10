@@ -1,0 +1,14 @@
+{
+  "name": "guestbridge-monorepo",
+  "version": "1.0.0",
+  "description": "Hotel Guest Engagement Platform Monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "dev": "pnpm -r dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
