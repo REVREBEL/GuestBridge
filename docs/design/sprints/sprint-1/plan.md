@@ -20,6 +20,6 @@
 
 - [ ] Design token JSON contains both *Concierge Warm* and *Operator Slate* semantic themes.
 - [ ] No international/RTL styling constraints or multi-language expansion margins exist.
-- [ ] `VerificationCard` state machine handles form validation, loading, success, and cool-down states.
+- [ ] `VerificationCard` state machine handles form validation, loading, success, and cooldown states.
 - [ ] Usability scenario defines a 60-second guest boarding protocol.
 - [ ] Contrast ratio for all portal colors passes WCAG 2.2 AAA standard (7:1 for body, 4.5:1 for headings).
