@@ -1,6 +1,6 @@
 # DESIGN_BRIEF.md — GuestBridge
 
-> Last updated: June 10, 2026 | Design Sprint 1 | Status: In Progress
+> Last updated: June 10, 2026 | Design Sprint 1 | Status: Complete
 
 ---
 
@@ -37,7 +37,8 @@ GuestBridge is a premium, quietly editorial hotel guest engagement platform desi
 
 | Sprint | Name | Status | Covered Scope |
 |---|---|---|---|
-| 1 | Token & Verification Foundation | 🔨 In Progress | Core US tokens, Zero-Install Onboarding, VerificationCard component |
+| 1 | Token & Verification Foundation | ✅ Done | Core US tokens, Zero-Install Onboarding, VerificationCard component |
+| 2 | Operator Workflows | ⬜ Not Started | SLA Inbox Thread (REV-46), DesignOps contribution governance (REV-48) |
 
 ---
 
@@ -50,6 +51,12 @@ Before completing a design cycle:
 ---
 
 ## 7. Current Design State
-* **What is finalized:** Zero-install entry logic strategy.
-* **What is undergoing critique/testing:** Multi-surface semantic token names and US-only spacing grids.
-* **What's next:** Component specs for `VerificationCard` and `SLAInboxThread`.
+* **What is finalized:**
+  * Global design token system (global spacing, serif editorial typography scale, operator status palettes)
+  * Two-step progressive verification journey map
+  * Mobile interaction and FSM specifications for the `VerificationCard` React component
+  * Usability scenarios, WCAG 2.2 AA checklists, and SMS opt-in A/B test parameters
+* **What is undergoing critique/testing:** None.
+* **What's next:**
+  * Component layout and AI quick-reply flow for the `AdminConsole/SLAInboxThread` (REV-46)
+  * Dual-track Agile contribution and release gates (REV-48)
