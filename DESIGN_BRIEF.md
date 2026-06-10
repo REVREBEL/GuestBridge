@@ -1,6 +1,6 @@
 # DESIGN_BRIEF.md — GuestBridge
 
-> Last updated: June 10, 2026 | Design Sprint 1 | Status: Complete
+> Last updated: June 10, 2026 | Design Sprint 2 | Status: Complete
 
 ---
 
@@ -28,8 +28,9 @@ GuestBridge is a premium, quietly editorial hotel guest engagement platform desi
 | Asset Layer | Path / Location | Contents |
 |---|---|---|
 | Strategy & Research | `docs/design/research/` | User personas, entry-point specifications, verification journey maps |
-| Design System | `docs/design/system/` | Design token JSONs, component blueprints, states |
-| Sprints & Trackers | `docs/design/sprints/sprint-1/` | Sprint plans, active progress logs, audit check-offs |
+| Design System | `docs/design/system/` | Design token JSONs, component blueprints, states, messaging specs |
+| Design Operations | `docs/design/ops/` | Dual-track operating model, critique and governance workflows |
+| Sprints & Trackers | `docs/design/sprints/sprint-N/` | Sprint plans, active progress logs, handoff logs |
 
 ---
 
@@ -37,8 +38,8 @@ GuestBridge is a premium, quietly editorial hotel guest engagement platform desi
 
 | Sprint | Name | Status | Covered Scope |
 |---|---|---|---|
-| 1 | Token & Verification Foundation | ✅ Done | Core US tokens, Zero-Install Onboarding, VerificationCard component |
-| 2 | Operator Workflows | ⬜ Not Started | SLA Inbox Thread (REV-46), DesignOps contribution governance (REV-48) |
+| 1 | Token & Verification Foundation | ✅ Done | Core US tokens (REV-44), Zero-Install Onboarding (REV-43), VerificationCard component (REV-45) |
+| 2 | Operator Workflows & Governance | ✅ Done | SLA Inbox Thread (REV-46), DesignOps governance (REV-48), Keyboard testing (REV-47) |
 
 ---
 
@@ -46,17 +47,16 @@ GuestBridge is a premium, quietly editorial hotel guest engagement platform desi
 Before completing a design cycle:
 1. Write a `done.md` inside the active sprint directory outlining changes, outputs, and deferred items.
 2. Update the `DESIGN_BRIEF.md` statuses (Section 5 & 7).
-3. Commit all assets under `design-sprint-1: <summary>`.
+3. Commit all assets under `design-sprint-N: <summary>`.
 
 ---
 
 ## 7. Current Design State
 * **What is finalized:**
-  * Global design token system (global spacing, serif editorial typography scale, operator status palettes)
-  * Two-step progressive verification journey map
-  * Mobile interaction and FSM specifications for the `VerificationCard` React component
-  * Usability scenarios, WCAG 2.2 AA checklists, and SMS opt-in A/B test parameters
+  * Global design token system (colors, serif typography scales, responsive sizing, LTR architecture)
+  * Guest Portal Zero-Install verification journey map, inputs validations, and component specifications (`VerificationCard`)
+  * Admin Console SLA inbox layout, hotkeys mapping, visual alert triggers, and optimistic UI transitions
+  * Usability scenarios, WCAG 2.2 AA testing parameters, screen-reader alert assertions, and live A/B experiment telemetry
+  * Dual-track agile governance, Design Review gates, SemVer rules, and release checklists
 * **What is undergoing critique/testing:** None.
-* **What's next:**
-  * Component layout and AI quick-reply flow for the `AdminConsole/SLAInboxThread` (REV-46)
-  * Dual-track Agile contribution and release gates (REV-48)
+* **What's next:** Design system handoff package release for production engineering buildout.
