@@ -54,7 +54,7 @@ Before completing a design cycle:
 ## 7. Current Design State
 * **What is finalized:**
   * Global design token system (colors, serif typography scales, responsive sizing, LTR architecture)
-  * Guest Portal Zero-Install verification journey map, inputs validations, and component specifications (`VerificationCard`)
+  * Guest Portal Zero-Install verification journey map, input validations, and component specifications (`VerificationCard`)
   * Admin Console SLA inbox layout, hotkeys mapping, visual alert triggers, and optimistic UI transitions
   * Usability scenarios, WCAG 2.2 AA testing parameters, screen-reader alert assertions, and live A/B experiment telemetry
   * Dual-track agile governance, Design Review gates, SemVer rules, and release checklists
