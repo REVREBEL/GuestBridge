@@ -109,7 +109,7 @@ export interface VerificationPayload {
 Since we are focused purely on the US market, inputs utilize rigid, high-performance regex validations:
 
 * **Booking Reference Input**:
-  * Capitalizes all letters automatically: `value.toUpperCase()`.
+  * Normalization: Automatically capitalize all letters (`value.toUpperCase()`) and strip common formatting characters like spaces or hyphens before truncating to 8 characters.
   * Regex validation: `/^[A-Z0-9]{8}$/` (Exactly 8 alphanumeric characters).
 * **US Phone Input**:
   * Character mask: On keypress, dynamically format to `+1 (XXX) XXX-XXXX`.
