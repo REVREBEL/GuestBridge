@@ -41,9 +41,9 @@ All spacing values are derived from our 8px global spacing scale.
 |---|---|---|
 | **Outer Card Wrapper** | `bg-white p-6 rounded-2xl shadow-sm border border-neutral-100` | Padding: 24px (`p-6`). Borders: Solid 1px `#f7f4eb`. |
 | **Header Accent** | `text-center mb-6` | Bottom margin: 24px (`mb-6`). |
-| **Form Inputs** | `w-full h-12 px-4 rounded-lg border border-neutral-200 focus:ring-2 focus:ring-accent-gold` | Height: 48px (`h-12`). Border radius: 8px (`rounded-lg`). |
+| **Form Inputs** | `w-full h-12 px-4 rounded-lg border border-neutral-200 focus:ring-2 focus:ring-accent` | Height: 48px (`h-12`). Border radius: 8px (`rounded-lg`). |
 | **Input Spacing** | `space-y-4` | Gap between inputs: 16px (`space-y-4`). |
-| **CTA Button** | `w-full h-12 bg-accent-gold text-white font-medium rounded-lg active:scale-95 transition-transform` | Height: 48px (`h-12`). Touch target: Minimum 48px. |
+| **CTA Button** | `w-full h-12 bg-accent text-white font-medium rounded-lg active:scale-95 transition-transform` | Height: 48px (`h-12`). Touch target: Minimum 48px. |
 
 ---
 
