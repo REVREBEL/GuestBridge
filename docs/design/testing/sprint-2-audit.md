@@ -54,7 +54,7 @@ To ensure blind or visually impaired hotel operators can safely navigate the den
 * **Expected Markup Behavior**:
   ```html
   <div id="sla-assertive-container" class="sr-only" aria-live="assertive">
-    Urgent: Room 402 is under 5 minutes SLA response limit. Option-A to approve draft.
+    Urgent: Room 402 is under 5 minutes SLA response limit. Press Option A to approve draft.
   </div>
   ```
 * **Screen Reader Intercept Rule**: Reader must immediately interrupt any ongoing speaking queue and announce the critical message (assertive broadcast priority).
