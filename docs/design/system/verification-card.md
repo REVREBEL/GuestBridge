@@ -95,7 +95,7 @@ export interface VerificationPayload {
   bookingReference: string;
   lastName: string;
   contactCapture: {
-    phoneNumber?: string; // Standardized 10-digit US phone format
+    phoneNumber?: string; // Normalized E.164 format (e.g., "+11234567890") or raw 10 digits
     zipCode?: string;     // US ZIP format (e.g., "90210" or "90210-1234")
     smsConsentGiven: boolean;
   };
