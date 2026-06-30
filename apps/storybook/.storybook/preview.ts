@@ -1,23 +1,15 @@
-import type { Preview } from "@storybook/react-vite";
-
-// import "../storybook.css";
-import "@styles/globals.css";
-import "./preview-overrides.css";
+import type { Preview } from "@storybook/react";
+import "@packages/ui/src/styles/global.css";
 
 const preview: Preview = {
   parameters: {
-    actions: {
-      argTypesRegex: "^on[A-Z].*",
-    },
     controls: {
-      expanded: true,
       matchers: {
         color: /(background|color)$/i,
-        date: /Date$/i,
-      },
-    },
-    layout: "padded",
-  },
+        date: /Date$/i
+      }
+    }
+  }
 };
 
 export default preview;
