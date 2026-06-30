@@ -1,21 +1,17 @@
 "use client";
 
 import React from "react";
-import { VerificationCard } from "@packages/ui";
+import { GuestJourneyFlow } from "@packages/ui";
 
 export default function GuestPortalPage() {
-  const handleVerificationSuccess = (payload: any) => {
-    console.log("Verification Success:", payload);
-    alert("Verification Successful!");
+  const handleJourneyComplete = (data: any) => {
+    console.log("Full Guest Journey Completed:", data);
   };
 
   return (
-    <main className="min-h-screen bg-[#fdfbf7] flex items-center justify-center p-4">
+    <main className="min-h-screen bg-[#fdfbf7] flex items-center justify-center p-4 py-12">
       <div className="w-full max-w-md">
-        <VerificationCard 
-          sourcePlatform="direct"
-          onVerificationSuccess={handleVerificationSuccess}
-        />
+        <GuestJourneyFlow onJourneyComplete={handleJourneyComplete} />
       </div>
     </main>
   );
