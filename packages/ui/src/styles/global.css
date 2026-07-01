@@ -1,35 +1,11 @@
-@import "tailwindcss";
-
-@theme {
-  --color-brand-gold: #aa7c11;
-  --color-concierge-bg: #fdfbf7;
-  --color-operator-canvas: #f8fafc;
-  --color-operator-highlight: #0284c7;
-  --color-sla-alert: #ef4444;
-
-  --font-serif: "Playfair Display", Georgia, serif;
-  --font-sans: "Inter", system-ui, sans-serif;
-  
-  --radius-card-mobile: 16px;
-  --radius-card-desktop: 12px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   body {
-    @apply antialiased text-slate-900;
+    background-color: #fdfbf7;
+    color: #0f172a;
+    font-family: 'Inter', system-ui, sans-serif;
   }
-}
-
-/* Concierge Warm Theme Scope */
-.theme-concierge {
-  background-color: var(--color-concierge-bg);
-  --color-primary: var(--color-brand-gold);
-  font-family: var(--font-serif);
-}
-
-/* Operator Slate Theme Scope */
-.theme-operator {
-  background-color: var(--color-operator-canvas);
-  --color-primary: var(--color-operator-highlight);
-  font-family: var(--font-sans);
 }
