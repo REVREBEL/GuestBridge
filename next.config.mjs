@@ -31,7 +31,7 @@ const nextConfig = {
   experimental: {
     externalDir: true,
   },
-  transpilePackages: ["@repo/ui"],
+  transpilePackages: ["@packages/ui"],
 };
 
 export default nextConfig;

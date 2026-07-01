@@ -3,7 +3,7 @@
 
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import { HelpDeskDocumentationPage } from "./documentation_page";
+import { HelpDeskDocumentationPage } from "@metrics-helpdesk/documentation_page";
 
 const meta = {
   title: "Components/Metrics Layouts/Help Desk/Help Desk Documentation Page",

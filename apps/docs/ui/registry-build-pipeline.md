@@ -7,7 +7,7 @@ The Metrics UI package has a composed registry build pipeline that keeps compone
 Run from the monorepo root:
 
 ```bash
-pnpm --filter @repo/ui run registry:build
+pnpm --filter @packages/ui run registry:build
 ```
 
 ## What `registry:build` does
@@ -46,7 +46,7 @@ registry:build         -> registry:sync + registry:manifest:sync + registry:toke
 Command:
 
 ```bash
-pnpm --filter @repo/ui run registry:sync
+pnpm --filter @packages/ui run registry:sync
 ```
 
 Script:
@@ -83,7 +83,7 @@ registry:sync generated 146 metadata stubs.
 Command:
 
 ```bash
-pnpm --filter @repo/ui run registry:manifest:sync
+pnpm --filter @packages/ui run registry:manifest:sync
 ```
 
 Script:
@@ -116,7 +116,7 @@ src/primitives/layouts/brand-header.tsx
 Command:
 
 ```bash
-pnpm --filter @repo/ui run registry:tokens:sync
+pnpm --filter @packages/ui run registry:tokens:sync
 ```
 
 Script:
@@ -232,7 +232,7 @@ Keep the metadata format as a simple object literal. Avoid computed values, func
 3. Run:
 
    ```bash
-   pnpm --filter @repo/ui run registry:build
+   pnpm --filter @packages/ui run registry:build
    ```
 
 4. Fix any unresolved manifest path report.
@@ -242,4 +242,4 @@ Keep the metadata format as a simple object literal. Avoid computed values, func
 
 ## Release note
 
-Registry build pipeline updated. `registry:build` now syncs component metadata, syncs and repairs registry manifest paths, syncs expanded CSS token variables into the registry theme, validates registry file references, and then runs the shadcn registry build. Team command: `pnpm --filter @repo/ui run registry:build`.
+Registry build pipeline updated. `registry:build` now syncs component metadata, syncs and repairs registry manifest paths, syncs expanded CSS token variables into the registry theme, validates registry file references, and then runs the shadcn registry build. Team command: `pnpm --filter @packages/ui run registry:build`.

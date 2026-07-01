@@ -1,5 +1,5 @@
 const nextConfig = {
-  transpilePackages: ["@repo/ui"],
+  transpilePackages: ["@packages/ui"],
   allowedDevOrigins: ["192.168.8.220"],
   async headers() {
     return [

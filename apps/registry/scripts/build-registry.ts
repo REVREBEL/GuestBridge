@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 const registry = {
-  name: "@repo/ui",
+  name: "@packages/ui",
   components: [
     {
       name: "button",
