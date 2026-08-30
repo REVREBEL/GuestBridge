@@ -1,4 +1,37 @@
 {
+  "components/guest-journey/guest-journey-flow": {
+    "displayName": "guest-journey-flow",
+    "description": "",
+    "props": [
+      {
+        "name": "onJourneyComplete",
+        "type": "(data: any) => void",
+        "required": false
+      },
+      {
+        "name": "className",
+        "type": "string",
+        "required": false,
+        "description": "Additional CSS classes merged into the component."
+      }
+    ]
+  },
+  "components/guest-verification/verification-card": {
+    "displayName": "verification-card",
+    "description": "",
+    "props": [
+      {
+        "name": "onVerify",
+        "type": "(phone: string, zip: string) => void",
+        "required": true
+      },
+      {
+        "name": "className",
+        "type": "string",
+        "required": false
+      }
+    ]
+  },
   "components/metrics-core/metrics-button": {
     "displayName": "metrics-button",
     "description": "",
@@ -745,6 +778,18 @@
         "name": "className",
         "type": "string",
         "required": false
+      }
+    ]
+  },
+  "components/operator-inbox/sla-inbox-thread": {
+    "displayName": "sla-inbox-thread",
+    "description": "",
+    "props": [
+      {
+        "name": "className",
+        "type": "string",
+        "required": false,
+        "description": "Additional CSS classes merged into the component."
       }
     ]
   },

@@ -59,7 +59,7 @@ This file is auto-updated by the sync script. Existing entries are preserved whe
 Run from the monorepo root:
 
 ```bash
-pnpm --filter @repo/ui run registry:sync
+pnpm --filter @packages/ui run registry:sync
 ```
 
 ## What `registry:sync` does
@@ -130,7 +130,7 @@ export const metadata: ComponentMetadata = {
 Then run:
 
 ```bash
-pnpm --filter @repo/ui run registry:sync
+pnpm --filter @packages/ui run registry:sync
 ```
 
 The sync script merges the local `metadata.ts` into the generated metadata JSON.
@@ -154,7 +154,7 @@ Keep `metadata.ts` files as simple object literals. Avoid:
 3. Run:
 
    ```bash
-   pnpm --filter @repo/ui run registry:sync
+   pnpm --filter @packages/ui run registry:sync
    ```
 
 4. Review `src/lib/registry.metadata.json`.
@@ -166,7 +166,7 @@ Keep `metadata.ts` files as simple object literals. Avoid:
 For normal team usage, prefer the full registry build command:
 
 ```bash
-pnpm --filter @repo/ui run registry:build
+pnpm --filter @packages/ui run registry:build
 ```
 
 That command runs metadata sync, manifest sync/repair, and the shadcn registry build in sequence.

@@ -167,8 +167,8 @@ After import migration work, run:
 
 ```bash
 pnpm exec tsc --noEmit -p packages/ui/tsconfig.json
-pnpm --filter @repo/ui run barrels:check
-pnpm --filter @repo/ui run registry:build
+pnpm --filter @packages/ui run barrels:check
+pnpm --filter @packages/ui run registry:build
 ```
 
 These checks catch type errors, barrel export drift, manifest path issues, expanded token sync issues, and registry build failures.

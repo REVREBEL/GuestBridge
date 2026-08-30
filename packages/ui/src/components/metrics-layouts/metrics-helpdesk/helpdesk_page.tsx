@@ -1,4 +1,4 @@
-import { ProductAreaPage } from "@/app/(app)/product-area-page";
+import { ProductAreaPage } from "@metrics-layouts/metrics-products/product-area-page";
 
 export default function ContactRevrebelPage() {
   return (

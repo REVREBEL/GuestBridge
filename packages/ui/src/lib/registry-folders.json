@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T09:00:20.080Z",
+  "generatedAt": "2026-07-01T00:14:39.004Z",
   "roots": [
     "primitives",
     "components",
@@ -806,6 +806,34 @@
       "directFileCount": 1,
       "childCount": 22
     },
+    "components/guest-journey": {
+      "id": "components/guest-journey",
+      "title": "Guest Journey",
+      "sourcePath": "packages/ui/src/components/guest-journey",
+      "parentId": "components",
+      "kind": "group",
+      "depth": 1,
+      "directFiles": [
+        "packages/ui/src/components/guest-journey/guest-journey-flow.tsx"
+      ],
+      "children": [],
+      "directFileCount": 1,
+      "childCount": 0
+    },
+    "components/guest-verification": {
+      "id": "components/guest-verification",
+      "title": "Guest Verification",
+      "sourcePath": "packages/ui/src/components/guest-verification",
+      "parentId": "components",
+      "kind": "group",
+      "depth": 1,
+      "directFiles": [
+        "packages/ui/src/components/guest-verification/verification-card.tsx"
+      ],
+      "children": [],
+      "directFileCount": 1,
+      "childCount": 0
+    },
     "components/metrics-core": {
       "id": "components/metrics-core",
       "title": "Metrics Core",
@@ -936,6 +964,20 @@
       "directFileCount": 0,
       "childCount": 3
     },
+    "components/operator-inbox": {
+      "id": "components/operator-inbox",
+      "title": "Operator Inbox",
+      "sourcePath": "packages/ui/src/components/operator-inbox",
+      "parentId": "components",
+      "kind": "group",
+      "depth": 1,
+      "directFiles": [
+        "packages/ui/src/components/operator-inbox/sla-inbox-thread.tsx"
+      ],
+      "children": [],
+      "directFileCount": 1,
+      "childCount": 0
+    },
     "components": {
       "id": "components",
       "title": "Components",
@@ -945,11 +987,14 @@
       "depth": 0,
       "directFiles": [],
       "children": [
+        "components/guest-journey",
+        "components/guest-verification",
         "components/metrics-core",
-        "components/metrics-layouts"
+        "components/metrics-layouts",
+        "components/operator-inbox"
       ],
       "directFileCount": 0,
-      "childCount": 2
+      "childCount": 5
     },
     "fonts/barlow": {
       "id": "fonts/barlow",
@@ -1260,12 +1305,13 @@
       "kind": "landing",
       "depth": 0,
       "directFiles": [
+        "packages/ui/src/styles/global.css",
         "packages/ui/src/styles/globals.css",
         "packages/ui/src/styles/tailwind-reference.css",
         "packages/ui/src/styles/theme-reference.css"
       ],
       "children": [],
-      "directFileCount": 3,
+      "directFileCount": 4,
       "childCount": 0
     },
     "types": {

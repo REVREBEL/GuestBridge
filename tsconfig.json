@@ -36,21 +36,21 @@
       "@layouts/*": ["./packages/ui/src/primitives/layouts/*"],
       "@menus/*": ["./packages/ui/src/primitives/menus/*"],
       "@popovers/*": ["./packages/ui/src/primitives/popovers/*"],
-<<<<<<< Updated upstream
+
       "@registry/*": ["./packages/ui/src/primitives/registry/*"],      
-=======
+
       "@sections/*": ["./packages/ui/src/primitives/sections/*"],
->>>>>>> Stashed changes
+
       "@skeleton/*": ["./packages/ui/src/primitives/skeleton/*"],
       "@sections/*": ["./packages/ui/src/primitives/sections/*"],
       "@tabs/*": ["./packages/ui/src/primitives/tabs/*"],
       "@tables/*": ["./packages/ui/src/primitives/tables/*"],
       "@textarea/*": ["./packages/ui/src/primitives/textarea/*"],
-<<<<<<< Updated upstream
+
       "@timelines/*": ["./packages/ui/src/primitives/timelines/*"],
-=======
+
       "@timeline/*": ["./packages/ui/src/primitives/timeline/*"],
->>>>>>> Stashed changes
+
       "@typography": ["./packages/ui/src/primitives/typography/index.ts"],
       "@typography/*": ["./packages/ui/src/primitives/typography/*"],
       "@studio-blocks/*": ["./packages/ui/src/primitives/studio-blocks/*"],
@@ -71,11 +71,23 @@
       "@metrics-core/*": ["./packages/ui/src/components/metrics-core/*"],
       "@metrics-errors/*": ["./packages/ui/src/components/metrics-errors/*"],
       "@metrics-feedback/*": ["./packages/ui/src/components/metrics-feedback/*"],
-      "@metrics-layouts": ["./packages/ui/src/primitives/metrics-layouts/index.ts"],
       "@metrics-layouts/*": ["./packages/ui/src/components/metrics-layouts/*"],
       "@metrics-sections/*": ["./packages/ui/src/components/metrics-sections/*"],
       "@metrics-tables/*": ["./packages/ui/src/components/metrics-tables/*"],
       "@metrics-timeline/*": ["./packages/ui/src/components/metrics-timeline/*"],
+
+      "@metrics-campaigns/*": ["./packages/ui/src/components/metrics-layouts/metrics-campaigns/*"],
+      "@metrics-chats/*": ["./packages/ui/src/components/metrics-layouts/metrics-chats/*"],
+      "@metrics-dashboard/*": ["./packages/ui/src/components/metrics-layouts/metrics-dashboard/*"],
+      "@metrics-data-library/*": ["./packages/ui/src/components/metrics-layouts/*data-library/*"],
+      "@metrics-helpdesk/*": ["./packages/ui/src/components/metrics-layouts/metrics-helpdesk/*"],
+      "@metrics-library/*": ["./packages/ui/src/components/metrics-layouts/metrics-library/*"],
+      "@metrics-properties/*": ["./packages/ui/src/components/metrics-layouts/metrics-properties/*"],
+      "@metrics-settings/*": ["./packages/ui/src/components/metrics-layouts/metrics-settings/*"],
+      "@metrics-strategies/*": ["./packages/ui/src/components/metrics-layouts/metrics-strategies/*"],
+      
+      "@metrics-tasks/*": ["./packages/ui/src/components/metrics-layouts/metrics-tasks/*"],
+      "@metrics-users/*": ["./packages/ui/src/components/metrics-layouts/metrics-users/*"],
 
       // OTHER
       "@common/*": ["./packages/ui/src/common/*"],

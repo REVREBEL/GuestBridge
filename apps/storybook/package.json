@@ -1,31 +1,29 @@
 {
   "name": "@apps/storybook",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "storybook dev -p 6006 --host 0.0.0.0 --no-open",
-    "build": "storybook build",
-    "lint": "tsc --noEmit",
-    "test": "echo \"No tests configured\""
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@packages/ui": "workspace:*"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "10.4.6",
-    "@storybook/addon-docs": "10.4.6",
-    "@storybook/react": "^10.4.6",
-    "@storybook/react-vite": "10.4.6",
-    "@tailwindcss/postcss": "^4.3.0",
-    "@types/node": "^24.0.0",
-    "@types/react": "19.2.17",
-    "@types/react-dom": "19.2.3",
-    "storybook": "10.4.6",
-    "tailwindcss": "^4.3.0",
-    "typescript": "^5.9.3",
-    "vite": "^7.0.0",
-    "vite-tsconfig-paths": "^5.1.4"
+    "@storybook/addon-essentials": "^8.1.10",
+    "@storybook/addon-interactions": "^8.1.10",
+    "@storybook/addon-links": "^8.1.10",
+    "@storybook/addon-onboarding": "^8.1.10",
+    "@storybook/blocks": "^8.1.10",
+    "@storybook/react": "^8.1.10",
+    "@storybook/react-vite": "^8.1.10",
+    "@storybook/test": "^8.1.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "storybook": "^8.1.10",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
   }
 }

@@ -7,7 +7,7 @@ The Metrics UI registry includes an expanded token sync step so the published re
 Run from the monorepo root:
 
 ```bash
-pnpm --filter @repo/ui run registry:tokens:sync
+pnpm --filter @packages/ui run registry:tokens:sync
 ```
 
 ## Script
@@ -36,7 +36,7 @@ pnpm dlx shadcn@latest build
 Team command:
 
 ```bash
-pnpm --filter @repo/ui run registry:build
+pnpm --filter @packages/ui run registry:build
 ```
 
 ## What token sync does

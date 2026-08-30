@@ -37,6 +37,29 @@ coverage/
 storybook-static/
 *.tsbuildinfo
 
-# UI package generated output
+# ui package generated output
 packages/ui/public/r/
-node_modules
+/packages/ui/node_modules
+/packages/ui/.next
+
+# admin package generated output
+packages/ui/public/r/
+/apps/admin/node_modules
+/apps/admin/.next
+
+
+# app package generated output
+packages/ui/public/r/
+/apps/app/node_modules
+/apps/app/.next
+
+# docs package generated output
+packages/ui/public/r/
+/apps/docs/node_modules
+/apps/docs/.next
+
+# registry package generated output
+packages/ui/public/r/
+/apps/registry/node_modules
+/apps/registry/.next
+
